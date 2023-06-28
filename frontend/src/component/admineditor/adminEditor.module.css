@@ -1,0 +1,41 @@
+.root {
+}
+
+.root table {
+    font-size:small;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.root td {
+    border: 1px solid #ddd;
+    padding: 8px 14px;
+    text-align: left;
+}
+
+.root th {
+    border: 1px solid #ddd;
+    padding: 8px 14px;
+    text-align: left;
+}
+
+.root tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.root tr:hover {
+    background-color: #ddd;
+}
+
+
+.cellCommands {
+    width: 400px;
+}
+
+.cellsize {
+    width: 100px;
+}
+
+

@@ -1,0 +1,46 @@
+.root {
+}
+
+.logo_img {
+    float:left;
+    width: 34px;
+    height: 34px;
+    margin-top:5px;
+    margin-left:5px;
+
+   }
+
+.textspace{
+    margin-top:5px;
+    margin-right:5%;
+}
+
+.textlogospace{
+    float:left;
+    margin-top:10px;
+    margin-left:5px;
+    color:#00000;
+    font-weight: bold;
+}
+
+
+.background{
+    position:absolute;
+    margin-top: 200px;
+    margin-top: 25%;
+    z-index:-1;
+    background:white;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    color:yellow;
+    opacity: 0.3;
+}
+
+.bgtext
+{
+    color:lightgrey;
+    font-size:120px;
+    transform:rotate(315deg);
+    -webkit-transform:rotate(315deg);
+}
